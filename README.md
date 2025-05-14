@@ -1,26 +1,27 @@
 # API Testing - Restful Booker
 
-This repository contains a complete API testing project for the Restful-Booker application using Postman.
+This project demonstrates how to perform API testing using **Postman** and **Newman**, featuring a complete collection of automated tests for validating the endpoints of a RESTful booking API.
 
-## 📘 Project Name
 
-**API-Testing-Restful-Booker**
-
-## 📄 Project Description
+## Project Description
 
 A simple Node booking form for testing RESTful web services.
-
-## 🔗 API Documentation
-
-[Restful-Booker API Docs](https://restful-booker.herokuapp.com/apidoc/index.html)
-
-## 📁 Project Repository
-
-[Original Repository](https://github.com/mwinteringham/restful-booker.git)
+- Supports **GET**, **POST**, **PUT**, and **DELETE** requests  
+- Covers various API endpoints  
+- Easy environment switching via Postman environments  
+- Pre-request scripts for dynamic data setup  
+- Test scripts for assertions and validations
+- Total **17** requests
+- Used Postman’s dynamic variables like `{{$random...}}`
+- **Both** Environment and Global variables
 
 ---
 
-## ✅ Main Features Tested
+#### API Documentation : https://restful-booker.herokuapp.com/apidoc/index.html
+
+#### Project Repository : https://github.com/mwinteringham/restful-booker.git
+
+## Features Tested
 
 - Create Booking
 - Get Booking
@@ -29,26 +30,19 @@ A simple Node booking form for testing RESTful web services.
 - Auth
 - Verify Update
 
-## 🧪 Methods Used
+
+## Methods Used
 
 - `GET`
 - `POST`
 - `PUT`
 - `DELETE`
 
-## 🧾 Total Requests
+---
 
-**17** requests
 
-## 🛠️ Data Generator
 
-Used Postman’s dynamic variables like `{{$random...}}`
-
-## 👤 Token Used
-
-**Both** Environment and Global variables
-
-## 🧪 Tools & Techniques
+## Tools & Techniques
 
 - **Postman**: API request handling
 - **JavaScript (Pre-Request & Tests)**: Dynamic data, status validation
